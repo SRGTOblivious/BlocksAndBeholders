@@ -1,0 +1,61 @@
+[27May2019 19:26:32.580] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190213.203750, --fml.mcVersion, 1.13.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 25.0.218, --version, MOD_DEV, --assetIndex, 1.13.1, --assetsDir, C:\Users\William Vincent\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[27May2019 19:26:32.590] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher starting: java version 1.8.0_211
+[27May2019 19:26:33.882] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[27May2019 19:26:35.143] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\William Vincent\.gradle\caches\forge_gradle\assets, --assetIndex, 1.13.1, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[27May2019 19:26:39.417] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[27May2019 19:26:54.598] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.1.6 build 14
+[27May2019 19:26:56.595] [Client thread/INFO] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[27May2019 19:26:56.700] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 25.0.218, for MC 1.13.2 with MCP 20190213.203750
+[27May2019 19:26:56.700] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v25.0.218 Initialized
+[27May2019 19:26:57.248] [Client thread/INFO] [mod.williamvincent.blocksandbeholders.ExampleMod/]: HELLO from Register Block
+[27May2019 19:26:57.282] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\William Vincent\Developer\Modding\Minecraft\Blocks-and-Beholders\run\config\forge-client.toml is not correct. Correcting
+[27May2019 19:26:57.285] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
+[27May2019 19:26:57.286] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.zoomInMissingModelTextInGui was corrected from null to false
+[27May2019 19:26:57.286] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeCloudsEnabled was corrected from null to true
+[27May2019 19:26:57.286] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableStairSlabCulling was corrected from null to false
+[27May2019 19:26:57.286] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to false
+[27May2019 19:26:57.286] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeLightPipelineEnabled was corrected from null to true
+[27May2019 19:26:57.287] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.selectiveResourceReloadEnabled was corrected from null to true
+[27May2019 19:26:57.287] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to true
+[27May2019 19:26:57.287] [Client thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.allowEmissiveItems was corrected from null to true
+[27May2019 19:26:57.288] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[27May2019 19:26:57.513] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[27May2019 19:26:57.591] [Client thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: main, forge-1.13.2-25.0.218_mapped_snapshot_20180921-1.13-recomp.jar, Default
+[27May2019 19:26:58.364] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 25.0.218 Target: 25.0.218
+[27May2019 19:26:58.364] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blocksandbeholders] Starting version check at http://myurl.me/
+[27May2019 19:26:59.679] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944) ~[?:1.8.0_211]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939) ~[?:1.8.0_211]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_211]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938) ~[?:1.8.0_211]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508) ~[?:1.8.0_211]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492) ~[?:1.8.0_211]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:190) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_211]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:141) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894) ~[?:1.8.0_211]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492) ~[?:1.8.0_211]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_211]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:157) ~[?:?]
+	... 3 more
+[27May2019 19:27:06.330] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/]: Starting up SoundSystem version 201809301515...
+[27May2019 19:27:06.592] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: Initializing No Sound
+[27May2019 19:27:06.593] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: (Silent Mode)
+[27May2019 19:27:07.511] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: OpenAL initialized.
+[27May2019 19:27:07.514] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Preloading sound minecraft:sounds/ambient/underwater/underwater_ambience.ogg
+[27May2019 19:27:07.519] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Sound engine started
+[27May2019 19:27:34.175] [Client thread/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'blocksandbeholders:adamantine_ingot#inventory' referenced from: blocksandbeholders:adamantine_ingot#inventory: java.io.FileNotFoundException: blocksandbeholders:models/item/adamantine_ingot.json
+[27May2019 19:27:35.496] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Max texture size: 8192
+[27May2019 19:27:51.771] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Created: 512x512 textures-atlas
+[27May2019 19:27:57.880] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[27May2019 19:27:58.977] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[27May2019 19:28:15.323] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[27May2019 19:28:16.475] [Client thread/INFO] [net.minecraft.client.audio.SoundManager/]: SoundSystem shutting down...
+[27May2019 19:28:16.706] [Client thread/INFO] [net.minecraft.client.audio.SoundManager/]: SoundSystem Author: Paul Lamb, www.paulscode.com
