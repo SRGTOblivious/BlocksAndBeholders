@@ -24,7 +24,8 @@ public final class ModEventSubscriber {
 @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
          event.getRegistry().registerAll(
-                 setup(new Item(new Item.Properties()),"adamantine_ingot")
+                 setup(new Item(new Item.Properties().group(ItemGroup.MISC)),"adamantine_ingot"),
+                 setup(new Dice(new Item.Properties().maxStackSize(32).group(ItemGroup.MISC ),"d4",4), "d4")
          );
 
     }
